@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Content/Styles/Base.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <section class="Section-01">
+            <div class="c-wrapper">
+                <h1 class="head">
+                    Soru 3
+                </h1>
+                <div class="column">
+                    <div class="column1">
+                        <div class="c-item">
+                            <h4>Dişlerinizi fırçalarken, ellerinizi ve yüzünüzü yıkarken, tıraş olurken musluğu açık bıraktığınız her dakikada fazladan yaklaşık 15-35 litre su harcarsınız.</h4>
+                        </div>
+                        <div class="c-item-01">
+                            <h2>
+                                Dişlerimi fırçalarken, ellerimi ve yüzümü yıkarken, tıraş olurken musluğu kapatırım.
+                            </h2>
+                        </div>
+                        <div class="c-item-02">
+                            <div class="c-item-02-A" onclick="Question.Actions.trueButton()">
+                                <input type="radio" name="button" id="radioButton1">
+                                <label for="">Yes</label>
+                            </div>
+                            <div class="c-item-02-B" onclick="Question.Actions.falseButton()">
+                                <input type="radio" name="button" id="radioButton2">
+                                <label for="">No</label>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <img src="Content/images/group-80.png" alt="">
+                    </div>
+                </div>
+                <div class="c-item-03">
+                    <a class="c-item-03-A" style="display: flex;" id="previous" onclick="Question.Actions.previousQuestion()">
+                        Previous Question
+                    </a>
+                    <a class="c-item-03-A" onclick="Question.Actions.nextQuestion()">
+                        Next Question
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        var question = 3;
+    </script>
+    <script src="Content/Js/Question.js">
+    </script>
+</body>
+
+</html>

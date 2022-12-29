@@ -1,0 +1,61 @@
+/* Common xs1, xs2 mobil*/
+@media all and (max-width: 767px) {
+  .header-01 {
+    height: 64px;
+    background-color: #FFF;
+  }
+  .header-01 .c-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-01 .c-wrapper .c-item-01 {
+    display: none;
+  }
+  .header-01 .c-wrapper .c-item-02 svg {
+    width: 121px;
+    height: 32px;
+  }
+  .header-01 .c-wrapper .hamburger-menu-icon {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 20px;
+  }
+}
+/* Common sm1, sm2 tablet */
+@media all and (min-width: 768px) and (max-width: 1319px) {
+  .header-01 {
+    height: 76px;
+    background-color: #FFF;
+  }
+  .header-01 .c-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-01 .c-wrapper .c-item-01 {
+    display: none;
+  }
+  .header-01 .c-wrapper .hamburger-menu-icon {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 26px;
+  }
+}
+/* Common  md, lg, xl, xxl desktop*/
+@media all and (min-width: 1320px) {
+  .header-01 {
+    height: 76px;
+    background: #FFF;
+  }
+  .header-01 .c-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=Header.css.map */

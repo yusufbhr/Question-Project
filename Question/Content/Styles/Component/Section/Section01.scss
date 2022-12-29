@@ -1,0 +1,82 @@
+﻿@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+/* Common xs1, xs2 */
+
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {}
+
+
+/* Common sm1, sm2 tablet */
+
+@media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {}
+
+@media all and (min-width: #{$mq-md + "px"}) {
+    .Section-01 {
+        padding: 80px 0;
+        .c-wrapper {
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            .head {
+                text-align: center;
+            }
+            .column {
+                display: flex;
+                margin-bottom: 20px;
+                .column1 {
+                    margin-top: 100px;
+                    width: 700px;
+                }
+                .column2 {
+                    flex: 1;
+                }
+            }
+            .c-item {
+                margin-bottom: 20px;
+            }
+            .c-item-01 {
+                margin-bottom: 20px;
+            }
+            .c-item-02 {
+                display: flex;
+                margin-bottom: 200px;
+                .c-item-02-A {
+                    border: 2px solid black;
+                    padding: 10px;
+                    margin-right: 20px;
+                    border-radius: 10px;
+                    &:hover {
+                        border: 2px solid #268b9e;
+                        color: #268b9e;
+                    }
+                }
+                .c-item-02-B {
+                    border: 2px solid black;
+                    border-radius: 10px;
+                    padding: 10px;
+                    &:hover {
+                        border: 2px solid #268b9e;
+                        color: #268b9e;
+                    }
+                }
+            }
+            .c-item-03 {
+                display: flex;
+                justify-content: space-between;
+                .c-item-03-A {
+                    border: 1px solid black;
+                    border-radius: 10px;
+                    background-color: #268b9e;
+                    color: white;
+                    padding: 10px;
+                    font-size: 14px;
+                    &:hover {
+                        color: #E1D7C6;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
