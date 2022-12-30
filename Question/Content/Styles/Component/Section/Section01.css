@@ -64,6 +64,7 @@
     color: white;
     padding: 10px;
     font-size: 14px;
+    cursor: pointer;
   }
   .Section-01 .c-wrapper .c-item-03 .c-item-03-A:hover {
     color: #E1D7C6;
